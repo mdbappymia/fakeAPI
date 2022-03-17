@@ -52,10 +52,10 @@ const run = async () => {
 run().catch(console.dir);
 app.get("/", (req, res) => {
   const resData = {
-    get_all_user: "",
-    get_single_user: "",
-    insert_single_user: "",
-    delete_single_user: "",
+    get_all_user: "https://fake-api-mdbappymia.vercel.app/users",
+    get_single_user: "https://fake-api-mdbappymia.vercel.app/users/_id",
+    insert_single_user: "https://fake-api-mdbappymia.vercel.app/users/_id",
+    delete_single_user: "https://fake-api-mdbappymia.vercel.app/users/_id",
   };
   res.json(resData);
 });
