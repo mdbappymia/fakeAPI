@@ -52,10 +52,13 @@ const run = async () => {
 run().catch(console.dir);
 app.get("/", (req, res) => {
   const resData = {
-    get_all_user: "https://fake-api-one.vercel.app/users",
-    get_single_user: "https://fake-api-one.vercel.app/users/_id",
-    insert_single_user: "https://fake-api-one.vercel.app/users/_id",
-    delete_single_user: "https://fake-api-one.vercel.app/users/_id",
+    get_all_user: "https://fake-api-euly1pyp3-mdbappymia.vercel.app/users",
+    get_single_user:
+      "https://fake-api-euly1pyp3-mdbappymia.vercel.app/users/_id",
+    insert_single_user:
+      "https://fake-api-euly1pyp3-mdbappymia.vercel.app/users/_id",
+    delete_single_user:
+      "https://fake-api-euly1pyp3-mdbappymia.vercel.app/users/_id",
   };
   res.json(resData);
 });
